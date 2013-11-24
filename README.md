@@ -1,3 +1,10 @@
+# rebuilding christianbumbersticker.org using Angular J
+
+I hope to have this complete by spring of 2014
+
+
+
+# OLD CONTENT FROM SEED:
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
