@@ -1,5 +1,24 @@
+<div ng-app="myApp" ng-controller="MyCtrl2">
 <p>This is the partial for view 2.</p>
 <p>
   Showing of 'interpolate' filter:
   {{ 'Current version is v%VERSION%.' | interpolate }}
+  
+  
+  
 </p>
+
+<table>
+<thead> 
+<tr>
+    <th>Sticker</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="item in items">
+    <td><button class="myButton">{{ item.title}}</button></td>
+ </tr>
+</tbody>
+</table>
+
+</div>  
