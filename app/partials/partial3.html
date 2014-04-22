@@ -1,6 +1,18 @@
 <div>
-<p>This is the partial for view 3.
 
-Put the print or phone details here.
-</p>
+<!--  display the stickers with ng-options for built in choice and grouping.  4-23 -->
+
+<div>
+    <label>Search</label>
+    <input type="text" ng-model="text">
 </div>
+
+<table class="stickerlist">
+<tbody>
+<tr ng-repeat="item in items | orderBy:'title' | filter:text">
+    <td ng-class="itemClass(item)"><button class="myButton" ng-click="toggleSelect(item)">{{ item.title}}</button></td>
+</tr>
+</tbody>
+</table>
+
+</div>  

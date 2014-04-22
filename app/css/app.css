@@ -1,10 +1,16 @@
 /* app css stylesheet */
 
+
 .menu {
   list-style: none;
-  border-bottom: 0.1em solid black;
   margin-bottom: 2em;
   padding: 0 0 0.5em;
+  background-color: LightGray;
+  font-size: 20pt;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .menu:before {
@@ -28,6 +34,8 @@
   content: "";
   padding: 0;
 }
+
+
 
 .myButton {
 	-moz-box-shadow: 11px 9px 19px 2px #fff6af;
@@ -53,3 +61,41 @@
 	position:relative;
 	top:1px;
 }
+
+.selected {
+	background-color: green;
+}
+
+#content {
+  bottom: 40px;
+  left: 10px;
+  font-size:20px;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  overflow: scroll;
+  text-align: left;
+}
+#footer {
+  border-top: solid black 3px;
+  height: 40px;
+  padding: 10px;
+}
+#heaxder {
+  background-color: LightGray;
+
+  font-size: 12pt;
+  height: 64px;
+  line-height: 100px;
+  text-align: center;
+}
+#nav {
+  border-right: solid gray 5px;
+  width: 150px;
+}
+#nav button {
+  max-width: 110px;
+  white-space: normal;
+}
+

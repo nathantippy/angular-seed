@@ -12,12 +12,23 @@ app.config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html', controller: 'MyCtrl', view: 'center'});
   $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl', view: 'center'});
   $routeProvider.when('/view3', {templateUrl: 'partials/partial3.html', controller: 'MyCtrl', view: 'center'});
+  $routeProvider.when('/view4', {templateUrl: 'partials/partial4.html', controller: 'MyCtrl', view: 'center'});
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
 
-
+//7-5 change to ['$scope',function] for minimizer
 app.controller('MyCtrl', (function($scope) {
+
+      $scope.toggleSelect = function(item) {
           
+          item.selected = !item.selected;
+          
+      };
+      
+      $scope.itemClass = function(item) {
+          return item.selected?'selected':'';
+      };
+    
       $scope.items = [
                       
                     {
