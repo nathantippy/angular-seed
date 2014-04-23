@@ -66,6 +66,19 @@
 	background-color: green;
 }
 
+.stickerlist {
+	width: 100%;
+}
+
+td { 
+    padding: 10px;
+}
+
+table { 
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
 #content {
   bottom: 40px;
   left: 10px;

@@ -5,7 +5,7 @@
 <table class="stickerlist">
 <tbody>
 <tr ng-repeat="item in items | orderBy:'title'">
-    <td ng-class="itemClass(item)"><button class="myButton" ng-click="toggleSelect(item)">{{ item.title}}</button></td>
+    <td ng-class="itemClass(item)" align="center"><button class="myButton" ng-click="toggleSelect(item)">{{ item.title}}</button></td>
 </tr>
 </tbody>
 </table>
