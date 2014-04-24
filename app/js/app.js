@@ -31,5 +31,16 @@ app.controller('MyCtrl', (function($scope,stickers) {
     
       $scope.items = stickers;
     
+      $scope.selectedCount = function() {
+         var total = 0;
+          stickers.map(function(item){total=(item.selected?total+1:total);});
+          return total;
+      };
+      $scope.totalCount = function() {
+          return stickers.length;
+       };
+      $scope.clearAll = function() {
+          stickers.map(function(item){item.selected = false;});
+      }
       
   }));

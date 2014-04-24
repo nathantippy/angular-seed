@@ -91,9 +91,14 @@ table {
   text-align: left;
 }
 #footer {
-  border-top: solid black 3px;
+ 
   height: 40px;
   padding: 10px;
+  
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%
 }
 #heaxder {
   background-color: LightGray;
