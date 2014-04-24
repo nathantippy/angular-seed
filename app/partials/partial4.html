@@ -9,5 +9,13 @@
 * Print Button / phone number with call times? check local time? and only show when valid
 
 
+<table class="stickerlist">
+<tbody>
+<tr ng-repeat="item in items | orderBy:'title' | filter:selected:true">
+    <td ng-class="itemClass(item)" align="center"><button class="myButton" ng-click="toggleSelect(item)">{{ item.title}}</button></td>
+</tr>
+</tbody>
+</table>
+
 </p>
 </div>
