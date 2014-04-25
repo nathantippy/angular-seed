@@ -36,11 +36,17 @@
 			add call instructions for requesting stickers.
 			</div>
 		</div>
-		<div id="footer" ng-controller="MyCtrl">
+		<span id="footer" ng-controller="MyCtrl">
+
+<audio controls>
+  <source src="air_disaster/NormanWilliams.ogg" type="audio/ogg">
+  <source src="air_disaster/NormanWilliams.mp3" type="audio/mpeg">
+</audio>
+		
 		Total selected {{selectedCount()}} out of {{totalCount()}} <button ng-click="clearAll()">clear selections</button>
 		<form method="post" action="https://www.paypal.com/cgi-bin/webscr"> <input name="cmd" type="hidden" value="_s-xclick" /> <input name="hosted_button_id" type="hidden" value="M3PQL46U2HLPY" /> <input border="0" alt="PayPal - The safer, easier way to pay online!" name="submit" type="image" src="https://www.paypalobjects.com/WEBSCR-640-20110306-1/en_US/i/btn/btn_donateCC_LG.gif" /> <img border="0" width="1" height="1" alt="" src="https://www.paypalobjects.com/WEBSCR-640-20110306-1/en_US/i/scr/pixel.gif" /> </form>
-		
-		</div>
+
+		</span>
 	</div>
 </body>
 </html>
