@@ -20,9 +20,7 @@ app.config(['$routeProvider', function($routeProvider) {
 app.controller('MyCtrl', (function($scope,stickers) {
 
       $scope.toggleSelect = function(item) {
-          
           item.selected = !item.selected;
-          
       };
       
       $scope.itemClass = function(item) {
@@ -30,7 +28,7 @@ app.controller('MyCtrl', (function($scope,stickers) {
       };
     
       $scope.items = stickers;
-    
+
       $scope.selectedCount = function() {
          var total = 0;
           stickers.map(function(item){total=(item.selected?total+1:total);});
@@ -42,5 +40,9 @@ app.controller('MyCtrl', (function($scope,stickers) {
       $scope.clearAll = function() {
           stickers.map(function(item){item.selected = false;});
       }
+      $scope.print = function() {
+          window.print();
+      };
+      
       
   }));
