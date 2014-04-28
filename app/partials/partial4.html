@@ -1,71 +1,48 @@
 <div>
-<p>This is the partial for view 3.
 
-* display mailing address, (from data)
+     <center><b><h2>IMPORTANT: When ordering your bumper stickers <br> please be sure to include your postal mailing address.</h2></b></center> <center>There is no 
+      charge for bumper stickers - as long as the Lord enables us to do this.</center>
+      <center>However, we do accept donations.</center><br>
 
-* list of the selected stickers
-* box for additional comments
 
-* Print Button / phone number with call times? check local time? and only show when valid
+
 
 <button ng-click="print()">Print</button>
 
 <div ng-repeat="item in items | filter:{selected:true}">
-<input value="{{ item.title}}" width="100%"/> 
+<textarea rows="4" cols="60" class="formsticker">{{ item.title}}</textarea>
 </div>
 
 
 
-</p>
-
-
-     <FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="2"><center><b><h2>IMPORTANT: When ordering your bumper stickers <br> please be sure to include your postal mailing address.</h2></b></center> <center>There is no 
-      charge for bumper stickers - as long as the Lord enables us to do this.</center>
-      <center>However, we do accept donations.</center><br><center> You can order your bumper stickers via e-mail, phone, or postal mail.</center><BR>
+      
+      
+      <center> You can order your bumper stickers via e-mail, phone, or postal mail.</center>
       <BR>
-      </FONT> 
-      <CENTER>
-        <TABLE WIDTH="480" BORDER="0" CELLPADDING="0" CELLSPACING="0" ALIGN="CENTER" HEIGHT="120">
-          <TR> 
-            <TD WIDTH="55%"> 
-              <TABLE BORDER="0" ALIGN="LEFT" WIDTH="50%">
-                <TR> 
-                  <TD WIDTH="54"><IMG SRC="email.gif" WIDTH="52" HEIGHT="51" ALT="E-Mail" ALIGN="TEXTTOP"></TD>
-                  <TD ALIGN="LEFT" WIDTH="45%"><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="2"><A HREF="mailto:christianbumpersticker@gmail.com">christianbumpersticker@gmail.com</A> 
-                    </FONT> </TD>
-                </TR>
-              </TABLE>
-            </TD>
-            <TD WIDTH="55%"> 
-              <TABLE BORDER="0" ALIGN="LEFT">
-                <TR> 
-                  <TD WIDTH="54"><IMG SRC="phone.gif" WIDTH="48" HEIGHT="39" ALT="Phone" ALIGN="TEXTTOP"></TD>
-                  <TD ALIGN="LEFT" WIDTH="131">(636) 462-2109</TD>
-                </TR>
-              </TABLE>
-            </TD>
-          </TR>
-          <TR> 
-            <TD WIDTH="55%" HEIGHT="70" VALIGN="BOTTOM"> 
-              <TABLE BORDER="0" ALIGN="LEFT">
-                <TR> 
-                  <TD WIDTH="54" VALIGN="MIDDLE" ALIGN="CENTER"><IMG SRC="usmail.gif" WIDTH="46" HEIGHT="38" ALT="Postal Mail" ALIGN="MIDDLE"></TD>
-                  <TD ALIGN="LEFT"><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="2">Testimony 
-                    Time<BR>
-                    P.O. Box 505<BR>
-                    St. Ann, MO 63074</FONT> </TD>
-                </TR>
-              </TABLE>
-            </TD>
-            <TD WIDTH="55%" HEIGHT="70">&nbsp; </TD>
-          </TR>
-        </TABLE>
-        <BR>
-        <BR>
-        <FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="2">&copy; Copyright 
-        2007, Testimony Time.<BR>
-        .</FONT> 
-      </CENTER>
+
+<img SRC="img/usmail.gif" WIDTH="46" HEIGHT="38" ALT="Postal Mail" ALIGN="MIDDLE">:
+<textarea rows="4">
+Testimony Time
+P.O. Box 505
+St. Ann, MO 63074
+</textarea>
+Your Postal Address:
+<textarea rows="4">
+</textarea>
+
+      <br/>
+      <img SRC="img/phone.gif" WIDTH="48" HEIGHT="39" ALT="Phone" ALIGN="TEXTTOP"><textarea rows='1'>(636) 462-2109</textarea>
+      <br/>
+      <img SRC="img/email.gif" WIDTH="52" HEIGHT="51" ALT="E-Mail" ALIGN="TEXTTOP"><A HREF="mailto:christianbumpersticker@gmail.com">christianbumpersticker@gmail.com</A>
+      <br/>
+Comments:
+<textarea rows="5" cols="60">
+</textarea>
+<br/>
+
+
+phone number with call times? check local time? and only show when valid
+
 
 
 </div>

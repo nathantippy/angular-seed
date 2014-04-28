@@ -26,7 +26,7 @@ app.controller('MyCtrl', (function($scope,stickers) {
       $scope.itemClass = function(item) {
           return item.selected?'selected':'';
       };
-    
+
       $scope.items = stickers;
 
       $scope.selectedCount = function() {
@@ -43,6 +43,20 @@ app.controller('MyCtrl', (function($scope,stickers) {
       $scope.print = function() {
           window.print();
       };
+      $scope.isCallableTime = function() {
+          
+          var min =  9 * 60  + 0;
+          var max = 17 * 60  + 0;
+          
+          var d = new Date();
+          var millis = now.getTime() + (now.getTimezoneOffset() * 60000)
+          
+          var now = d.getHours() * 60 + d.getMinutes();
+          
+          return now>min && now<max;
+          
+      };
+      
       
       
   }));

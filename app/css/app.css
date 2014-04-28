@@ -62,6 +62,10 @@
 	top:1px;
 }
 
+.formsticker {
+	outline: 0;
+}
+
 .selected {
 	background-color: green;
 }
