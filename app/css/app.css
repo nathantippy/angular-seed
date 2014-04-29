@@ -4,10 +4,10 @@
 .menu {
   list-style: none;
   margin-bottom: 2em;
+  margin-left: 354px;
   padding: 0 0 0.5em;
-  background-color: LightGray;
   font-size: 20pt;
-  height: 100px;
+  height: 102px;
   line-height: 100px;
   text-align: center;
   white-space: nowrap;
@@ -55,7 +55,7 @@
 	margin: 20px;
 }
 .myButton:hover {
-	background-color:#ffab23;
+	background-color:#ffff99;
 }
 .myButton:active {
 	position:relative;
@@ -63,11 +63,12 @@
 }
 
 .formsticker {
-	outline: 0;
+	padding: 20px;
+	display: inline-block;
 }
 
 .selected {
-	background-color: green;
+	background-color: #0066ff;
 }
 
 .stickerlist {
@@ -90,7 +91,7 @@ table {
   padding: 10px;
   position: absolute;
   right: 0;
-  top: 100px;
+  top: 110px;
   overflow: scroll;
   text-align: left;
 }
@@ -104,12 +105,12 @@ table {
   bottom: 0;
   width: 100%
 }
-#heaxder {
-  background-color: LightGray;
-
+#header {
+  background-image:url('../img/title.gif');
+  background-repeat: no-repeat;
   font-size: 12pt;
-  height: 64px;
-  line-height: 100px;
+  height: 110px;
+  line-height: 110px;
   text-align: center;
 }
 #nav {

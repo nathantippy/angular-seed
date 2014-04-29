@@ -8,41 +8,49 @@
 
 
 <button ng-click="print()">Print</button>
+<br/>
 
-<div ng-repeat="item in items | filter:{selected:true}">
-<textarea rows="4" cols="60" class="formsticker">{{ item.title}}</textarea>
-</div>
+<h2>Please send the following stickers:</h2>
+<span ng-repeat="item in items | filter:{selected:true}">
+<span class="formsticker">{{ item.title}}</span>
+<br/>
+</span>
 
-
-
+<br/>
+<h2>To the following address:</h2>
+<textarea rows="4", cols="55">
+</textarea>
+<h2>Additional comments:</h2>
+<textarea rows="4" cols="55">
+</textarea>
       
-      
-      <center> You can order your bumper stickers via e-mail, phone, or postal mail.</center>
-      <BR>
+<h3> You can order your bumper stickers via e-mail, phone, or postal mail.</h3>
+<BR>
 
 <img SRC="img/usmail.gif" WIDTH="46" HEIGHT="38" ALT="Postal Mail" ALIGN="MIDDLE">:
-<textarea rows="4">
+<textarea rows="4"> color picker display:inline-block
 Testimony Time
 P.O. Box 505
 St. Ann, MO 63074
 </textarea>
-Your Postal Address:
-<textarea rows="4">
-</textarea>
+
 
       <br/>
       <img SRC="img/phone.gif" WIDTH="48" HEIGHT="39" ALT="Phone" ALIGN="TEXTTOP"><textarea rows='1'>(636) 462-2109</textarea>
       <br/>
       <img SRC="img/email.gif" WIDTH="52" HEIGHT="51" ALT="E-Mail" ALIGN="TEXTTOP"><A HREF="mailto:christianbumpersticker@gmail.com">christianbumpersticker@gmail.com</A>
       <br/>
-Comments:
-<textarea rows="5" cols="60">
-</textarea>
-<br/>
 
 
+
+
+//just simplify this?
 phone number with call times? check local time? and only show when valid
 
+<div id="printableArea">
+      <h1>Print me</h1>
+</div>
 
+<input type="button" onclick="printDiv('printableArea')" value="print a div!" />
 
 </div>
