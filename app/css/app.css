@@ -1,46 +1,11 @@
 /* app css stylesheet */
 
 
-.menu {
-  list-style: none;
-  margin-bottom: 2em;
-  margin-left: 354px;
-  padding: 0 0 0.5em;
-  font-size: 20pt;
-  height: 102px;
-  line-height: 100px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
-}
-
-.menu > li {
-  display: inline;
-}
-
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
-}
-
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
-}
-
-
 
 .myButton {
-	-moz-box-shadow: 11px 9px 19px 2px #fff6af;
-	-webkit-box-shadow: 11px 9px 19px 2px #fff6af;
-	box-shadow: 11px 9px 19px 2px #fff6af;
+	-moz-box-shadow: 10px 6px 19px 2px #fff6af;
+	-webkit-box-shadow: 10px 6px 19px 2px #fff6af;
+	box-shadow: 10px 6px 19px 2px #fff6af;
 	background-color:#ffffff;
 	border:1px solid #ffaa22;
 	display:block;
@@ -52,7 +17,7 @@
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffee66;
 	width:500px;
-	margin: 10px;
+	margin: 20px;
 }
 .myButton:hover {
 	background-color:#ffff99;
@@ -85,7 +50,7 @@
 }
 
 .selected {
-	background-color: #0066ff;
+	background-color: #000077;
 }
 
 .stickerlist {
@@ -103,20 +68,31 @@ table {
 #wrapper {
 	 overflow: hidden;
 }
+#header {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+#bandMenu {
+  font-size: xx-large;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
 #content {
-  bottom: 70px;
+  top: 164px;
+  bottom: 80px;
   left: 10px;
   font-size:20px;
   padding: 10px;
   position: absolute;
   right: 0;
-  top: 110px;
   overflow: scroll;
   text-align: left;
 }
 #footer {
  
-  height: 70px;
+  height: 80px;
   padding: 10px;
   overflow: hidden;
   text-align: center;
@@ -124,20 +100,6 @@ table {
   bottom: 0;
   width: 100%
 }
-#header {
-  background-image:url('../img/title.gif');
-  background-repeat: no-repeat;
-  font-size: 12pt;
-  height: 110px;
-  line-height: 110px;
-  text-align: center;
-}
-#nav {
-  border-right: solid gray 5px;
-  width: 150px;
-}
-#nav button {
-  max-width: 110px;
-  white-space: normal;
-}
+
+
 
