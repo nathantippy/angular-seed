@@ -68,6 +68,11 @@ table {
 #wrapper {
 	 overflow: hidden;
 }
+#text {
+    width: 550px;
+    padding: 10px;
+    text-align: left;
+}
 #header {
   height: 100px;
   line-height: 100px;
@@ -82,21 +87,39 @@ table {
 #summary {
 	height: 30px;
 	font-size: medium;
-	 text-align: center;
+	text-align: center;
 }
 #searchBar {
-	text-align: center; //TODO: keep this from scrolling off when we look at the bottom of the list.
+    text-align: center;
+	top: 180px;
+	height: 40px;
+	font-size: large;
+
 }
 #content {
-  top: 180px;
-  bottom: 80px;
-  left: 10px;
-  font-size:20px;
-  padding: 10px;
-  position: absolute;
-  right: 0;
-  overflow: scroll;
-  text-align: left;
+  text-align: center;
+
+}
+#scroll {
+	  top: 180px;
+	  bottom: 80px;
+	  left: 10px;
+	  font-size:20px;
+	  padding: 10px;
+	  position: absolute;
+	  right: 0;
+	  overflow: scroll;
+}
+
+#scrollUnderBar {
+      top: 220px;
+      bottom: 80px;
+      left: 10px;
+      font-size:20px;
+      padding: 10px;
+      position: absolute;
+      right: 0;
+      overflow: scroll;
 }
 #footer {
  

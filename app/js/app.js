@@ -34,6 +34,12 @@ app.controller('MyCtrl', (function($scope,stickers) {
           stickers.map(function(item){total=(item.selected?total+1:total);});
           return total;
       };
+      $scope.stickerTitle = function() {
+          var total = 0;
+          stickers.map(function(item){total=(item.selected?total+1:total);});
+          return total>0?"Your selected stickers:":
+                         "You have not selected any stickers, please return to the list and click on a sticker.";
+      };
       $scope.totalCount = function() {
           return stickers.length;
        };
@@ -43,29 +49,6 @@ app.controller('MyCtrl', (function($scope,stickers) {
       $scope.print = function() {
           window.print();
       };
-      $scope.isCallableTime = function() {
-          
-          var min =  9 * 60  + 0;
-          var max = 17 * 60  + 0;
-          
-          var d = new Date();
-          var millis = now.getTime() + (now.getTimezoneOffset() * 60000)
-          
-          var now = d.getHours() * 60 + d.getMinutes();
-          
-          return now>min && now<max;
-          
-      };
-      
-      $scope.printDiv = function(divName) {
-          var printContents = document.getElementById(divName).innerHTML;
-          var originalContents = document.body.innerHTML;
 
-          document.body.innerHTML = printContents;
-
-          window.print();
-
-          document.body.innerHTML = originalContents;
-     }
       
   }));

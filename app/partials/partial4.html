@@ -1,57 +1,49 @@
-<div>
-
-     <center><b><h2>IMPORTANT: When ordering your bumper stickers <br> please be sure to include your postal mailing address.</h2></b></center> <center>There is no 
-      charge for bumper stickers - as long as the Lord enables us to do this.</center>
-      <center>However, we do accept donations.</center><br>
+<div id="scroll">
 
 
-<button ng-click="print()">Print</button>
+ <h3>There is no charge for bumper stickers<br> as long as the Lord enables us to do this.<br>
+ However, we do accept donations.</h3>
+
+
 <br/>
 
-<h2>Please send the following stickers:</h2>
+<h2>{{stickerTitle()}}</h2>
 <span ng-repeat="item in items | filter:{selected:true}">
 <span class="formsticker">{{ item.title}}</span>
 <br/>
 </span>
 
+
 <br/>
-<h2>To the following address:</h2>
+<h2>Send stickers to the following postal mailing address:</h2>
+<h4>Please be sure to include your postal address when ordering bumper stickers</h4>
 <textarea rows="4", cols="55">
 </textarea>
 <h2>Additional comments:</h2>
 <textarea rows="4" cols="55">
 </textarea>
-      
-<h3> You can order your bumper stickers via e-mail, phone, or postal mail.</h3>
-<BR>
+<p/>
+<button ng-click="print()">Print</button>
+<p/>
+<h3> You can order your bumper stickers via postal mail, phone or e-mail.</h3>
+<table>
+<tr>
+<td>
+<img SRC="img/usmail.gif" WIDTH="46" HEIGHT="38" ALT="Postal Mail" ALIGN="MIDDLE"><br>
+Testimony&nbsp;Time<br>
+P.O.&nbsp;Box&nbsp;505<br>
+St.&nbsp;Ann,&nbsp;MO&nbsp;63074<br>
+</td>
+<td>
+<img SRC="img/phone.gif" WIDTH="48" HEIGHT="39" ALT="Phone" ALIGN="TEXTTOP"><br>
+(636)&nbsp;462-2109<br>
+This is a home based ministry, please make calls between 9:00&nbsp;AM and 9:00&nbsp;PM Central&nbsp;Standard&nbsp;Time
+</td>
+<td>
+<img SRC="img/email.gif" WIDTH="52" HEIGHT="51" ALT="E-Mail" ALIGN="TEXTTOP"><br>
+<A HREF="mailto:christianbumpersticker@gmail.com">christianbumpersticker@gmail.com</A>
+</td>
 
-<img SRC="img/usmail.gif" WIDTH="46" HEIGHT="38" ALT="Postal Mail" ALIGN="MIDDLE">:
-<textarea rows="4"> color picker display:inline-block
-Testimony Time
-P.O. Box 505
-St. Ann, MO 63074
-</textarea>
-
-
-      <br/>
-      <img SRC="img/phone.gif" WIDTH="48" HEIGHT="39" ALT="Phone" ALIGN="TEXTTOP"><textarea rows='1'>(636) 462-2109</textarea>
-      <br/>
-      <img SRC="img/email.gif" WIDTH="52" HEIGHT="51" ALT="E-Mail" ALIGN="TEXTTOP"><A HREF="mailto:christianbumpersticker@gmail.com">christianbumpersticker@gmail.com</A>
-      <br/>
-
-THIS IS A HOME BASED MINISTRY,  SO PLEASE MAKE PHONE CALLS BETWEEN 
-9:00 AM to 9:00 PM Central Standard Time
-                                                   thank you
-                                                   
-
-
-//just simplify this?
-phone number with call times? check local time? and only show when valid
-
-<div id="printableArea">
-      <h1>Print me</h1>
-</div>
-
-<input type="button" onclick="printDiv('printableArea')" value="print a div!" />
-
+</tr>
+</table>
 </div>
