@@ -84,6 +84,9 @@ table {
 	font-size: medium;
 	 text-align: center;
 }
+#searchBar {
+	text-align: center; //TODO: keep this from scrolling off when we look at the bottom of the list.
+}
 #content {
   top: 180px;
   bottom: 80px;
