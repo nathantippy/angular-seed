@@ -1,7 +1,7 @@
 'use strict';
 
 
-var app = angular.module('myApp', ['ngRoute',
+var app = angular.module('myApp', ['ngRoute','ngTouch',
                                    'myApp.filters',
                                    'myApp.services',
                                    'myApp.directives'
