@@ -231,7 +231,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Drugs Will Take You Farther Than\nYou Want to Go, Keep You Longer\nThan You Want to Stay & Cost You\nMore than You Want to Pay",
+                          title: "Drugs Will Take You Farther Than<br>You Want to Go, Keep You Longer<br>Than You Want to Stay & Cost You<br>More than You Want to Pay",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -245,7 +245,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Drive so your license\nExpires before you do",
+                          title: "Drive so your license<br>Expires before you do",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -714,7 +714,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "The Lord is not willing that any should perish, but that all come to repentance\nRead II Peter 3:9",
+                          title: "The Lord is not willing that any should perish, but that all come to repentance<br>Read II Peter 3:9",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -1071,28 +1071,28 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Don't expect a party in hell\nIt's canceled due to FIRE",
+                          title: "Don't expect a party in hell<br>It's canceled due to FIRE",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Don't be a Spiritual Wreck\nWork out Daily\nWith Prayer and Bible",
+                          title: "Don't be a Spiritual Wreck<br>Work out Daily<br>With Prayer and Bible",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Death Forgets No One\nLive For JESUS Now",
+                          title: "Death Forgets No One<br>Live For JESUS Now",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Dare to be Different\nLive for JESUS",
+                          title: "Dare to be Different<br>Live for JESUS",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -1148,14 +1148,14 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Christians have the best life now\nIf they're wrong they loose nothing\nIf others are wrong it's hell to pay",
+                          title: "Christians have the best life now<br>If they're wrong they loose nothing<br>If others are wrong it's hell to pay",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Christians Aren't Sinless,\nBut They Should Sin Less",
+                          title: "Christians Aren't Sinless,<br>But They Should Sin Less",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -1428,14 +1428,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "ABSTINENCE PAYS",
-                          image: "http://christianbumpersticker.org/images/example.jpg",
-                          keywords: "",
-                          selected: false
-                              
-                      },
-                      {
-                          title: "Who wants Genital Warts?",
+                          title: "ABSTINENCE PAYS <br> Who wants Genital Warts?",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -1841,14 +1834,14 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "STOP THE RUNAWAY LIBERAL COURTS\nThat change the DEFINITION OF MARRIAGE",
+                          title: "STOP THE RUNAWAY LIBERAL COURTS<br>That change the DEFINITION OF MARRIAGE",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Stop TV filth, abortions etc.\nso God can bless America",
+                          title: "Stop TV filth, abortions etc.<br>so God can bless America",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -1904,28 +1897,28 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "The BIBLE is the Greatest Book ever written, \nput it back in Public Schools",
+                          title: "The BIBLE is the Greatest Book ever written, <br>put it back in Public Schools",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "The Bible is the Only Book that makes people Good \nPut it back in public schools",
+                          title: "The Bible is the Only Book that makes people Good <br>Put it back in public schools",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "The BIBLE IS the only Book \nWith Accurate Prophecies",
+                          title: "The BIBLE IS the only Book <br>With Accurate Prophecies",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "The Bible is True \nJesus Changed my Life",
+                          title: "The Bible is True <br>Jesus Changed my Life",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2044,7 +2037,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "The Fool Hath Said In His Heart, \nThere is no God. (Psalm 53:1)",
+                          title: "The Fool Hath Said In His Heart, <br>There is no God. (Psalm 53:1)",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2156,21 +2149,21 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Choose Abstinence \nSome STD’s are forever",
+                          title: "Choose Abstinence <br>Some STD’s are forever",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Choose you this day whom \nYou will Serve (Joshua 24:15)",
+                          title: "Choose you this day whom <br>You will Serve (Joshua 24:15)",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Don’t Ignore JESUS, \nHe’s Your Best Friend",
+                          title: "Don’t Ignore JESUS, <br>He’s Your Best Friend",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2205,21 +2198,21 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "ETERNITY AHEAD \nLive for Jesus now",
+                          title: "ETERNITY AHEAD <br>Live for Jesus now",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Eternity is too long to be \nWrong - Live for JESUS now",
+                          title: "Eternity is too long to be <br>Wrong - Live for JESUS now",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Everyone of the 50 states \nconstitutions mention God",
+                          title: "Everyone of the 50 states <br>constitutions mention God",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2408,14 +2401,14 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "My Body I Commit to the Dust, \nRelying on the Merits of Jesus \nChrist for the Pardon of my Sins(Samuel Adams)",
+                          title: "My Body I Commit to the Dust, <br>Relying on the Merits of Jesus <br>Christ for the Pardon of my Sins(Samuel Adams)",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "\"My Hopes of a Future Life \nAre All Founded Upon The \nGospel of Christ\" (President John Quincy Adams)",
+                          title: "\"My Hopes of a Future Life <br>Are All Founded Upon The <br>Gospel of Christ\" (President John Quincy Adams)",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2457,7 +2450,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "On Christ Believed \nIs Salvation Received",
+                          title: "On Christ Believed <br>Is Salvation Received",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2506,14 +2499,14 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Pay Day Some Day \nLive For JESUS Now!",
+                          title: "Pay Day Some Day <br>Live For JESUS Now!",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Please don’t kill \nyour unborn baby",
+                          title: "Please don’t kill <br>your unborn baby",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2576,14 +2569,14 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Pre-Marital Sex \nIf you PLAY, you PAY \nAIDS, VD, & PREGNANCY",
+                          title: "Pre-Marital Sex <br>If you PLAY, you PAY <br>AIDS, VD, & PREGNANCY",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "PRO-CHOICE IS NO CHOICE \nFOR UNBORN BABIES",
+                          title: "PRO-CHOICE IS NO CHOICE <br>FOR UNBORN BABIES",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2597,7 +2590,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "PRO-CHOICE IS THE \nWRONG CHOICE",
+                          title: "PRO-CHOICE IS THE <br>WRONG CHOICE",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2611,7 +2604,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Read the BIBLE before they \nRead it at your Funeral",
+                          title: "Read the BIBLE before they <br>Read it at your Funeral",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2625,7 +2618,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Repent and live for JESUS \nThere is a place called HELL",
+                          title: "Repent and live for JESUS <br>There is a place called HELL",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2646,7 +2639,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Return to JESUS & the \nGOD of your Youth",
+                          title: "Return to JESUS & the <br>GOD of your Youth",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2681,49 +2674,49 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Seek ye the Lord \nwhile He may be found",
+                          title: "Seek ye the Lord <br>while He may be found",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Selfish People Kill Their \nUnborn Babies so They Can \nLive as They Please",
+                          title: "Selfish People Kill Their <br>Unborn Babies so They Can <br>Live as They Please",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Separation of Church & State as \nWe have been taught is a LIE",
+                          title: "Separation of Church & State as <br>We have been taught is a LIE",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Separation of Church & State \nIs Not in the US Constitution",
+                          title: "Separation of Church & State <br>Is Not in the US Constitution",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Serving JESUS gives \nPEACE in Your HEART",
+                          title: "Serving JESUS gives <br>PEACE in Your HEART",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Serving JESUS gives \nPurpose to Your LIFE",
+                          title: "Serving JESUS gives <br>Purpose to Your LIFE",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Set your affections on things above, \nNot on the earth(Colossians 3:2)",
+                          title: "Set your affections on things above, <br>Not on the earth(Colossians 3:2)",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2737,28 +2730,28 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "SHAME, SHAME, AMERICA! \nYour TV Filth Would Shock \nOur Founding Fathers",
+                          title: "SHAME, SHAME, AMERICA! <br>Your TV Filth Would Shock <br>Our Founding Fathers",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Shame! Shame! Hollywood \nYou Taught American \nWomen to Smoke & Cuss",
+                          title: "Shame! Shame! Hollywood <br>You Taught American <br>Women to Smoke & Cuss",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Since God is Gone from Schools \nHigher Education is LOWER",
+                          title: "Since God is Gone from Schools <br>Higher Education is LOWER",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
                               
                       },
                       {
-                          title: "Sinful Pleasure is QUICKLY over! WORRY \nAbout AIDS lasts Years",
+                          title: "Sinful Pleasure is QUICKLY over! WORRY <br>About AIDS lasts Years",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false

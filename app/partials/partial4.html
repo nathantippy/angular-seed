@@ -4,28 +4,25 @@
  <h3>There is no charge for bumper stickers<br> as long as the Lord enables us to do this.<br>
  However, we do accept donations.</h3>
 
-
 <br/>
 
-<h2>{{stickerTitle()}}</h2>
+<h1>{{stickerTitle()}}</h1>
 <span ng-repeat="item in items | filter:{selected:true}">
-<span class="formsticker">{{ item.title}}</span>
+<span class="formsticker"><div ng-bind-html="item.title"></div></span>
 <br/>
 </span>
 
-
 <br/>
-<h2>Send stickers to the following postal mailing address:</h2>
+<h1>2. Enter your postal mailing address:</h1>
 <h4>Please be sure to include your postal address when ordering bumper stickers</h4>
-<textarea rows="4", cols="55">
+<textarea rows="4", cols="50" ng-model="address">
 </textarea>
 <h2>Additional comments:</h2>
-<textarea rows="4" cols="55">
+<textarea rows="4" cols="50" ng-model="comment">
 </textarea>
 <p/>
-<button ng-click="print()">Print</button>
-<p/>
-<h3> You can order your bumper stickers via postal mail, phone or e-mail.</h3>
+
+<h1>3. You can order your bumper stickers via postal mail, phone or e-mail.</h1>
 <table>
 <tr>
 <td>
@@ -33,6 +30,8 @@
 Testimony&nbsp;Time<br>
 P.O.&nbsp;Box&nbsp;505<br>
 St.&nbsp;Ann,&nbsp;MO&nbsp;63074<br>
+<p>
+<button ng-click="print()">Print</button>
 </td>
 <td>
 <img SRC="img/phone.gif" WIDTH="48" HEIGHT="39" ALT="Phone" ALIGN="TEXTTOP"><br>
@@ -41,7 +40,8 @@ This is a home based ministry, please make calls between 9:00&nbsp;AM and 9:00&n
 </td>
 <td>
 <img SRC="img/email.gif" WIDTH="52" HEIGHT="51" ALT="E-Mail" ALIGN="TEXTTOP"><br>
-<A HREF="mailto:christianbumpersticker@gmail.com">christianbumpersticker@gmail.com</A>
+To&nbsp;order&nbsp;via&nbsp;email,&nbsp;click&nbsp;here<br>
+<A HREF="mailto:christianbumpersticker@gmail.com?subject=stickers&body={{mailBody()}}">christianbumpersticker@gmail.com</A>
 </td>
 
 </tr>

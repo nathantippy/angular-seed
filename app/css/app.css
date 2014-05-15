@@ -35,6 +35,7 @@
 .leftFoot {
 	display: inline-block;
 	position: absolute;
+	line-height: 20px;
     left: 10px;
     top: 5px;
     font-size:large
@@ -47,6 +48,10 @@
     position: absolute;
     right: 0px;
     top: 10px;
+}
+
+.space-line {
+  line-height: 5px;
 }
 
 .selected {
@@ -102,7 +107,7 @@ table {
 }
 #scroll {
 	  top: 180px;
-	  bottom: 80px;
+	  bottom: 100px;
 	  left: 10px;
 	  font-size:20px;
 	  padding: 10px;
@@ -113,7 +118,7 @@ table {
 
 #scrollUnderBar {
       top: 220px;
-      bottom: 80px;
+      bottom: 100px;
       left: 10px;
       font-size:20px;
       padding: 10px;
@@ -123,7 +128,7 @@ table {
 }
 #footer {
  
-  height: 80px;
+  height: 100px;
   padding: 10px;
   overflow: hidden;
   text-align: center;

@@ -1,11 +1,9 @@
 <div id="scroll">
 
-<!--  display the stickers with ng-options for built in choice and grouping.  4-23 -->
-
 <table class="stickerlist">
 <tbody>
 <tr ng-repeat="item in items | orderBy:'title'">
-    <td ng-class="itemClass(item)" align="center"><button class="myButton" ng-click="toggleSelect(item)">{{ item.title}}</button></td>
+    <td ng-class="itemClass(item)" align="center"><button class="myButton" ng-click="toggleSelect(item)" ><div ng-bind-html="item.title"></div></button></td>
 </tr>
 </tbody>
 </table>

@@ -1,7 +1,7 @@
 'use strict';
 
 
-var app = angular.module('myApp', ['ngRoute','ngTouch',
+var app = angular.module('myApp', ['ngRoute','ngTouch','ngSanitize',
                                    'myApp.filters',
                                    'myApp.services',
                                    'myApp.directives'
@@ -16,7 +16,6 @@ app.config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
 
-//7-5 change to ['$scope',function] for minimizer
 app.controller('MyCtrl', (function($scope,stickers) {
 
       $scope.toggleSelect = function(item) {
@@ -30,24 +29,37 @@ app.controller('MyCtrl', (function($scope,stickers) {
       $scope.items = stickers;
 
       $scope.selectedCount = function() {
-         var total = 0;
+          var total = 0;
           stickers.map(function(item){total=(item.selected?total+1:total);});
           return total;
       };
       $scope.stickerTitle = function() {
           var total = 0;
           stickers.map(function(item){total=(item.selected?total+1:total);});
-          return total>0?"Your selected stickers:":
-                         "You have not selected any stickers, please return to the list and click on a sticker.";
+          return total>0?"1. Review your selected stickers:":
+                         "1. You have not selected any stickers, please return to the list and click on a sticker.";
       };
       $scope.totalCount = function() {
           return stickers.length;
        };
       $scope.clearAll = function() {
           stickers.map(function(item){item.selected = false;});
-      }
+      };
       $scope.print = function() {
           window.print();
+      };
+      $scope.mailBody = function() {
+          var body = encodeURIComponent("send the following:\n\r");
+          stickers.map(function(item){
+             if (item.selected) {
+                 body = body+encodeURIComponent(item.title.replace("<br>","\n")+"\n\r\n\r");
+             } 
+          });
+          body = body+encodeURIComponent("to this address:\n\r"+$scope.address+"\n\r");
+          if ($scope.comment) {
+              body = body+encodeURIComponent("\n\r"+$scope.comment+"\n\r");
+          }
+          return body;
       };
 
       
