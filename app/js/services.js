@@ -7,7 +7,7 @@ var app = angular.module('myApp');
 app.value('stickers',[
                       
                       {
-                          title: "Caterpillar to Butterfly",
+                          title: "New life in Christ<br>Caterpillar to Butterfly",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -490,7 +490,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "How Can God Bless America when we Kicked HIM out of our Schools?",
+                          title: "Why should God Bless America when we Kicked HIM out of our Schools?",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -1554,13 +1554,6 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "On Judgment Day you'll wish your car had JESUS STICKERS",
-                          image: "http://christianbumpersticker.org/images/example.jpg",
-                          keywords: "",
-                          selected: false
-                              
-                      },
-                      {
                           title: "TV Filth Insults Decent People",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
@@ -1638,7 +1631,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "IN GOD I TRUST",
+                          title: "IN GOD I TRUST †",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -1764,7 +1757,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "JESUS IS GOD",
+                          title: "JESUS IS GOD (John 1:1)",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2030,13 +2023,6 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "The First Man Was ADAM NOT NEANDERTHAL",
-                          image: "http://christianbumpersticker.org/images/example.jpg",
-                          keywords: "",
-                          selected: false
-                              
-                      },
-                      {
                           title: "The Fool Hath Said In His Heart, <br>There is no God. (Psalm 53:1)",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
@@ -2226,7 +2212,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Gambling Destroys Families Glory & Honor to JESUS (Heb. 2:9)",
+                          title: "Gambling Destroys Families<br>Glory & Honor to JESUS (Heb. 2:9)",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2324,7 +2310,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "JUDGMENT DAY IS COMING Settle out of court Now",
+                          title: "JUDGMENT DAY IS COMING Settle out of court Now<br> (Repent, Believe & live for Jesus)",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
@@ -2541,7 +2527,7 @@ app.value('stickers',[
                               
                       },
                       {
-                          title: "Premarital sex can have a high price tag",
+                          title: "Premarital sex <br> high price tag",
                           image: "http://christianbumpersticker.org/images/example.jpg",
                           keywords: "",
                           selected: false
