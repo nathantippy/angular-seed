@@ -36,8 +36,11 @@ app.controller('MyCtrl', (function($scope,stickers) {
       $scope.stickerTitle = function() {
           var total = 0;
           stickers.map(function(item){total=(item.selected?total+1:total);});
-          return total>0?"1. Review your selected stickers:":
-                         "1. You have not selected any stickers, please return to the list and click on a sticker.";
+                    
+          return total>0 ? 
+                   (total>10 ? "1. You have selected too many stickers, please return to the list and remove some." : "  1. Review your selected stickers:"  ) :
+                   "1. You have not selected any stickers, please return to the list and click on a sticker, OR ask for the 'sample pack'.";
+                    
       };
       $scope.totalCount = function() {
           return stickers.length;
@@ -46,19 +49,32 @@ app.controller('MyCtrl', (function($scope,stickers) {
           stickers.map(function(item){item.selected = false;});
       };
       $scope.print = function() {
-          window.print();
+          var total = 0;
+          stickers.map(function(item){total=(item.selected?total+1:total);});
+          if (total>10) {
+             window.alert("You have selected too many stickers."); 
+          } else {
+             window.print();
+          }
       };
       $scope.mailBody = function() {
-          var body = encodeURIComponent("send the following:\n\r");
+          
+          var total = 0;
+          stickers.map(function(item){total=(item.selected?total+1:total);});
+          if (total>10) {
+              return "too many stickers selected!";
+          }
+          
+          var body = encodeURIComponent("Send the following:\n\r");
           stickers.map(function(item){
              if (item.selected) {
                  body = body+encodeURIComponent(item.title.replace("<br>","\n")+"\n\r\n\r");
              } 
           });
-          body = body+encodeURIComponent("to this address:\n\r"+$scope.address+"\n\r");
           if ($scope.comment) {
               body = body+encodeURIComponent("\n\r"+$scope.comment+"\n\r");
           }
+          body = body+encodeURIComponent("\n\rTo:\n\r"+$scope.address+"\n\r");
           return body;
       };
 

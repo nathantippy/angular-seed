@@ -79,8 +79,8 @@ table {
     text-align: left;
 }
 #header {
-  height: 100px;
-  line-height: 100px;
+  height: 120px;
+  line-height: 120px;
   text-align: center;
 }
 #bandMenu {
@@ -90,23 +90,17 @@ table {
   text-align: center;
 }
 #summary {
-	height: 30px;
+	height: 50px;
 	font-size: medium;
 	text-align: center;
 }
-#searchBar {
-    text-align: center;
-	top: 180px;
-	height: 40px;
-	font-size: large;
 
-}
 #content {
   text-align: center;
 
 }
 #scroll {
-	  top: 180px;
+	  top: 220px;
 	  bottom: 100px;
 	  left: 10px;
 	  font-size:20px;
@@ -116,8 +110,27 @@ table {
 	  overflow: scroll;
 }
 
+#frontscroll {
+      top: 160px;
+      bottom: 100px;
+      left: 10px;
+      font-size:20px;
+      padding: 10px;
+      position: absolute;
+      right: 0;
+      overflow: scroll;
+}
+
+#searchBar {
+    text-align: center;
+    top: 220px;
+    height: 40px;
+    font-size: large;
+
+}
+
 #scrollUnderBar {
-      top: 220px;
+      top: 260px;
       bottom: 100px;
       left: 10px;
       font-size:20px;
