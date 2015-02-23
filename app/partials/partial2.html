@@ -3,7 +3,7 @@
 <table class="stickerlist">
 <tbody>
 <tr ng-repeat="item in items | orderBy:'title'">
-    <td ng-class="itemClass(item)" align="center"><button class="myButton" ng-click="toggleSelect(item)" ><div ng-bind-html="item.title"></div></button></td>
+    <td ng-class="itemClass(item)" align="center"><button class="myButton" ng-click="toggleSelect(item)" ><div ng-bind-html="item.title"></div><img ng-src="{{item.image}}" style="width: 160px; height: 48px"/></button></td>
 </tr>
 </tbody>
 </table>
